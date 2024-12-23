@@ -16,4 +16,4 @@ const duck2: Duck = {
   makeSound: (sound: string) => console.log(sound),
 }
 
-export const ducks = [duck1, duck2]
+export const ducks : Duck[]= [duck1, duck2]
